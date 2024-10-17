@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İf-Else İf-Else</title>
+</head>
+<body>
+
+    <script>
+        //Değişkenleri ve onlara girilecek değerleri kullanıcıdan istedik
+        var sayi1=Number(prompt("1.Notunuzu giriniz:"));
+        var sayi2=Number(prompt("2.Notunuzu giriniz:"));
+        //Ortalama değişkenini tanımladık
+        var ortalama=(sayi1+sayi2)/2;
+
+        if (ortalama<50) {//ortalama 50 den büyükse burası çalışacaktır
+            document.write("Dersten kaldınız...");
+        } else if (ortalama<=65){//ortalama 51-65 arasıysa burası çalışacaktır
+            document.write("Ders durumunuz orta seviye...");
+        } else if (ortalama<=80){//ortalama 66-85 arasıysa burası çalışacaktır
+            document.write("Ders durumunuz iyi seviye...");
+        }else{//yukarıdaki şartlar sağlanmazsa burası çalışacaktır ortalama 81-100 arası
+            document.write("Ders durumunuz pekiyi...");
+        }
+
+    </script>
+    
+</body>
+</html>

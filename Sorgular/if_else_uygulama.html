@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İf Else Uygulama</title>
+</head>
+<body>
+
+    <script>
+        // yas adında kullanıcının atayacağı bir değişken tanımlıyoruz
+        var yas=Number(prompt("Yaşınızı giriniz:"));
+        //yas 18 den küçükse buradaki kod satırı çalışacak
+        if(yas<18){
+            document.write("Yaşınız 18'den küçüktür ehliyet için şart sağlanmadı...");
+            document.write("<br>");
+            document.write("Yaşınız küçüktür...");
+        }
+        else{//yas 18 den büyükse yukarıdaki kod bloğu çalışmayıp burası çalışacaktır
+            document.write("Yaşınız 18'den büyüktür ehliyet almak için şartlar sağlandı...");
+            document.write("<br>");
+            document.write("Yaşınız uygundur HOŞGELDİNİZ...");
+        }
+    </script>
+
+</body>
+</html>

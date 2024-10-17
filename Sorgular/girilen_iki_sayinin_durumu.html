@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girilen İki Sayının Durumunu Karşılaştırma</title>
+</head>
+<body>
+    
+    <script>
+        //Değişkenlerimizi tanımlayalım
+        var sayi1,sayi2;
+
+        //Kullanıcıdan iki sayı alıp bunları değişkenlere tanımlayalım
+        sayi1=Number(prompt("X değeri için bir sayı giriniz:"));
+        sayi2=Number(prompt("Y değeri için bir sayı giriniz:"));
+        
+        //Sorgulama yaparak sayıların eşit,büyük,küçük gibi durumlarını karşılaştıralım
+        if (sayi1==sayi2) 
+            alert("X=Y");
+        else if(sayi1>sayi2)
+            alert("X sayısı büyüktür");
+        else
+            alert("Y sayısı büyüktür");
+        
+    </script>
+
+</body>
+</html>

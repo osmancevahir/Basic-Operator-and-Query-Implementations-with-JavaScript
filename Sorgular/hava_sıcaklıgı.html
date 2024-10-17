@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Sıcaklığı</title>
+</head>
+<body>
+    
+    <script>
+        //Değişken tanımlayarak kullanıcıdan veri girmesini istedik
+        var sıcaklık=Number(prompt("Hava sıcaklığını giriniz:"));
+
+        //Olması istenen sıcaklıklarda gerekli sorguları yazdık
+        if(sıcaklık<0)
+            alert("Dondurucu");
+        else if(sıcaklık<15)
+            alert("Soğuk");
+        else if(sıcaklık<25)
+            alert("Ilık");
+        else
+            alert("Sıcak");
+
+    </script>
+
+
+</body>
+</html>

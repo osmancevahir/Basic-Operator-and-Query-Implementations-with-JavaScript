@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozitif Sayıların Karesini Alma</title>
+</head>
+<body>
+    
+    <script>
+        //değişkenlerimizi tanımlıyoruz
+        var sayi,kare;
+        //Kullanıcıdan bir sayı isteyelim ve bunu sayi değişkenine atayalım
+        sayi=Number(prompt("Bir sayı giriniz:"));
+        //sayi değişkeni pozitif ise devam ettirelim değilse tekrardan sayı girmesini sağlayalım
+        if(sayi<0){
+            document.write("Girdiğiniz sayı pozitif değildir.");
+            document.write("<br>");
+            document.write("Pozitif bir sayı giriniz.");
+        }else{//sayı değişkeni sıfırdan büyükse bu komut çalışacak
+            kare=sayi*sayi;
+            document.write("Girdiğiniz sayının karesi: "+kare);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairenin Alanı ve Çevresini Bulma</title>
+</head>
+<body>
+
+    <script>
+        //Değişkenlerimizi tanımlayalım
+        var r,alan,cevre;
+        
+        //Kullanıcıdan yarıçapı isteyip r değişkenine atayalım
+        r=Number(prompt("Dairenin yarıçap değerini giriniz:"));
+        //Burada yarıçap değeri sıfırdan küçükse hata vermesini sağlayacağız
+        if(r<0){
+            document.write("Yarıçap değeriniz sıfırdan küçüktür");
+            document.write("<br>");
+            document.write("Yarıçap değerini pozitif bir değer veriniz");
+        }else{
+            cevre=3.14*2*r;
+            alan=3.14*r*r;
+            document.write("Dairenin Alanı: "+alan+" Dairenin Çevresi: "+cevre);
+        }
+            
+    </script>
+
+</body>
+</html>

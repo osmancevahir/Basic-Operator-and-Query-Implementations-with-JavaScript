@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dersten Geçti Kaldı Durumunu Sorgulama</title>
+</head>
+<body>
+
+    <script>
+        //Değişkenleri tanımlayalım
+        var not1,not2,ort;
+
+        //Kullanıcıdan not değerlerini alalım
+        not1=Number(prompt("1. notunuzu giriniz:"));
+        not2=Number(prompt("2. notunuzu giriniz:"));
+        ort=(not1+not2)/2;
+
+        //Ortalamaya göre geçti kaldı durumu olacak şekilde sorgu yazalım
+        if(ort<50)
+            alert("Ortalamanız: "+ort+" Dersten kaldınız!!!");
+        else
+            alert("Ortalamanız: "+ort+" Dersi geçtiniz!!!");
+    </script>
+    
+</body>
+</html>

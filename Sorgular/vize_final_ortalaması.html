@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //Tüm değişkenleri tanımlıyoruz
+        var vize1,vize2,final1,final2,ortvize,ortfinal,ortgenel;
+
+        //Vize ile ilgili not girişleri alınıp değişkene atandı ve vize ortalaması bulundu.
+        vize1=Number(prompt("Birinci vize notunu giriniz:"));
+        vize2=Number(prompt("İkinci vize notunu giriniz:"));
+        ortvize=(vize1+vize2)/2;
+
+        //Final ile ilgili not girişleri alınıp değişkene atandı ve final ortalaması bulundu.
+        final1=Number(prompt("Birinci final notunu giriniz:"));
+        final2=Number(prompt("İkinci final notunu giriniz:"));
+        ortfinal=(final1+final2)/2;
+
+        //Genel ortalama için gerekli formülü yazıyoruz
+        ortgenel=((ortvize*40)/100)+((ortfinal*60)/100);
+        
+        //
+        if(ortgenel<50)
+            alert("Dersten kaldın!!!");
+        else
+            alert("Dersten geçtin!!!");
+    </script>
+
+</body>
+</html>

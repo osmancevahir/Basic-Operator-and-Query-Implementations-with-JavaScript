@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vize Final Uygulaması</title>
+</head>
+<body>
+    
+        <script>
+            //Değişkenlerimiz tanımlıyoruz
+            var vize,final,ort;
+            
+            //Kullanıcıdan aldığı notları öğrenmek için bilgi istiyoruz
+            vize=Number(prompt("Vize notunuzu giriniz:"));
+            final=Number(prompt("Final notunuzu giriniz:"));
+            //Ortalama değişkeninin hesaplamasını tanımlıyoruz
+            ort=(vize+final)/2;
+            //Şartımızı tanımlıyoruz
+            if (ort<50) {//eğer ort değişkeni 50 den küçükse bu kod bloğu çalışacak
+                document.write("Ortalamanız 50'den düşüktür");
+                document.write("<br>");
+                document.write("Dersten kaldınız...");
+            } else {//eğer yukarıdaki blok çalışmaz ise ortalama 50 den büyük anlamına gelmektedir
+                document.write("Ortalamanız 50'den büyüktür");
+                document.write("<br>");
+                document.write("Dersi geçtiniz...");
+            }
+        </script>
+</body>
+</html>
