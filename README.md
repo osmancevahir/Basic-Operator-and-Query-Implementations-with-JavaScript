@@ -12,10 +12,6 @@
 - Return ifadeleri
 
 *************************************************************************************************************************************************************************************************************************************
-
-# Basic-JavaScript-Applications-with-Array
- Notes and work on JavaScript array
- 
 # JavaScript Operator and Query Studies
 This repo contains my work on JavaScript operators and queries. These are applications that I have prepared by using operators and queries and making sample applications with basic JavaScript structures.
 
